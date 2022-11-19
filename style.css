@@ -1,0 +1,130 @@
+*{margin:0;
+padding:0;
+font-size: 16px;
+font-family: 'Poppins', sans-serif;
+
+}
+.body{
+
+    
+    background-image: url("http://www.solofondos.com/wp-content/uploads/2015/11/fondo-para-paginas-web-profesionales-3d-grandes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*inicio de index */
+
+h1 {
+    color: blue;
+    font-size: 45px;
+    text-align: center;
+    
+
+    
+
+    }
+    
+    h2 {
+        color: green;
+        font-size: 40px;
+        background-color: aquamarine;
+        margin-top: 2px ;
+        background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        
+       
+        }
+    
+        h3{
+            color: white;
+            font-size: 20px;
+            margin-top: 2px;
+            
+            }
+            h4{
+                color: rgb(73, 13, 129);
+                font-size: 20px;
+            }
+            p{color:orange;
+                
+                text-align: justify;
+                margin-top: 20px;
+                background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+                
+        
+                
+            }
+
+            
+            div ul li a{
+                color: wheat;
+                text-decoration: none;
+                background-color: rgba(0, 0, 256, 0.5);
+                border-radius: 5px;
+                padding-left: 15px;
+                padding-right:15px ;
+                
+                
+                
+                
+            }
+            a:hover{
+                background: rgb(2,0,36);
+                background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+            }
+            a{
+            transition:color 0.8s linear 0.2s ;
+            }
+
+            ul{list-style: none;
+                }
+
+                ul li{display: inline-block;
+                
+                }
+                footer ul li a {
+                    color:blue;
+                    text-decoration: none;
+                    background-color:cyan;
+                    border-radius: 5px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+
+                }
+                .grid_area{
+                   max-width: 1200px;
+                   margin: auto;
+                   padding: 40px 0;
+                  
+                     
+                }
+                img {
+                    width: 500px;  
+                    height: 500px; 
+                   
+                 }
+                 
+                 @media (max-width:767px){
+                  img {
+                    width: 200px; 
+                    height: 200px; 
+
+                  }
+                 }
+
+                 .caja_img{
+                    padding-top: 5px; 
+                    text-align: center; 
+                 }
+
+                
+                
+            
+                
+            
+        
+
+
+
+
