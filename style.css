@@ -117,6 +117,24 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
                     padding-top: 5px; 
                     text-align: center; 
                  }
+                .item1 { grid-area: cabecera; }
+                .item2 { grid-area: piedepagina; }
+                .grid-container {
+                    display: grid;
+                    grid-template-areas:
+                    'cabecera cabecera cabecera cabecera cabecera cabecera'
+                    
+                    'piedepagina piedepagina piedepagina piedepagina piedepagina piedepagina';
+                    grid-gap: auto;
+                    background-color: #2196F3;
+                    padding: auto;
+                  }
+                  .grid-container > div {
+                    background-color: rgba(255, 255, 255, 0.8);
+                    text-align: center;
+                    padding: 20px 0;
+                    font-size: 30px;
+                  }
 
                 
                 
